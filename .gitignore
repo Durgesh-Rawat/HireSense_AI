@@ -1,0 +1,43 @@
+# Frontend dependencies
+/frontend/node_modules
+
+# Backend dependencies
+/backend/node_modules
+
+# General dependencies
+node_modules/
+
+# Next.js
+/frontend/.next/
+/frontend/out/
+/frontend/build/
+
+# Testing
+/frontend/coverage/
+
+# Environment files
+.env*
+/frontend/.env*
+/backend/.env*
+!.env.example
+
+# Vercel
+/frontend/.vercel/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+/frontend/next-env.d.ts
+
+# Build files
+/frontend/dist/
+/backend/dist/
